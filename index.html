@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image-gallery-assignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Anton+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <meta name="description" content="A personal collection of Kenny's iconic album covers, presented as an interactive virtual gallery. Artist of each album can be found in the alt data.">
+</head>
+<body>
+
+    <!--HEADER SECTION-->
+    <header class="header">
+        <h1>Iconic Album Covers</h1>
+        <h2>A Virtual Gallery.</h2>
+    </header>
+
+     <!-- DIVIDER -->
+     <div class="divider"></div>
+     <div class="desbox">
+     <p class="galscription">
+         Below is a personal collection of my 15 most iconic album covers. Yes, I know there are more creative ones out there, but these are based off my personal tastes and are a reflection of my exquisite music taste. Simply hover over the image and you'll see for yourself how colorful, and creative they are! Maybe give them a listen too ;) </p>
+     </div>
+
+    <!--GALLERY SECTION-->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="row">
+            <div class="col-md-4 col-sm-6 mb-4">
+                <img src="AR.jpg" class="gallery-movement" alt="The Beatles">
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <img src="DH.jpg" class="gallery-movement" alt="Bad Suns">
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <img src="KSG.jpg" class="gallery-movement" alt="Kanye and Kid Cudi">
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <img src="MCATIS.jpg" class="gallery-movement" alt="Smashing Pumpkins">
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <img src="TC.jpg" class="gallery-movement" alt="The Cars">
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <img src="PR.jpg" class="gallery-movement" alt="Prince">
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <img src="SPLHC.jpg" class="gallery-movement" alt="The Beatles2">
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <img src="MIB.jpg" class="gallery-movement" alt="Wham!">
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <img src="TS.jpg" class="gallery-movement" alt="Billy Joel">
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <img src="TH.jpg" class="gallery-movement" alt="Michael Jackson">
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <img src="MMLP2.jpg" class="gallery-movement" alt="Eminem">
+             </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <img src="OSOTM.jpg" class="gallery-movement" alt="Pink Floyd">
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <img src="SS.jpg" class="gallery-movement" alt="Noah Kahan">
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <img src="GN.jpg" class="gallery-movement" alt="Turnover">
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+                <img src="DL.png" class="gallery-movement" alt="Pixies">
+            </div>
+            </div>
+            </div>
+        </div>
+
+    <div class="footer"></div>
+
+    <!--ENLARGMENT-->
+    <div class="enlarged-image" id="enlargedAlbumContainer">
+        <button class="close-btn" type="button" id="closeButton"> X</button>
+        <button class="nav-btn prev-btn" type="button" id="prevButton">&lt; L</button>
+        <button class="nav-btn next-btn" type="button" id="nextButton">R &gt;</button>
+        <img id="enlargedAlbum" src="BLANK" alt="Enlarged View">
+    </div>
+
+    <!--JAVASCRIPT LINK-->
+    <script src="JSCode.js"></script>
+</body>
+</html>
